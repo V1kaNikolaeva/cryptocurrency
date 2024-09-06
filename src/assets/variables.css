@@ -1,0 +1,17 @@
+[data-theme="light"] {
+    --bg: rgb(255, 255, 255);
+    --main-color: rgb(39, 39, 39); 
+    --box-shadow: rgb(219, 126, 5); 
+    --border: rgb(255, 255, 255);
+    --toggle: rgb(232, 177, 67);
+    --toggle-circle-hover: rgb(211, 127, 0);
+}
+
+[data-theme="dark"] {
+    --bg: rgb(39, 39, 39);
+    --main-color: rgb(255, 255, 255); 
+    --box-shadow: rgb(175, 175, 175);
+    --border: rgb(39, 39, 39);
+    --toggle: rgb(25, 47, 66);
+    --toggle-circle-hover: rgb(165, 165, 165);
+  }
