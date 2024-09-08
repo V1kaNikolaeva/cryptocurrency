@@ -25,7 +25,6 @@ const themeStore = useThemeStore()
 const toggleTheme = () => {
     position.value = !position.value
     themeStore.toggle()
-    console.log(localStorage.getItem('theme'))
 } 
 const toggleCircle = computed(() => {
     return position.value ? 'start' : 'end'
@@ -37,6 +36,8 @@ const toggleCircle = computed(() => {
     max-width: 1200px;
     margin: 0 auto;
     background-color: var(--bg);
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .nav-list {
     display: flex;

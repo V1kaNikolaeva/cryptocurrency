@@ -27,6 +27,7 @@ watchEffect(() => {
 <style scoped>
 .main-header {
   width: 100%;
+
 }
 .wrapper {
   width: 100%;

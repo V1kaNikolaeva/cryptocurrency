@@ -5,15 +5,11 @@ export interface Items {
 }
 
 // рест апи
-export interface ValuteItem {
-    data: {
-        amount: number,
-        base: string,
-        currency: string,
-    }
-}
 export interface ValueItemRecord {
-    amount: number,
+    amount: string,
     base: string,
     currency: string,
+}
+export interface ValuteItem {
+    data: ValueItemRecord
 }
