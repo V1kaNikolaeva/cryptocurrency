@@ -21,6 +21,14 @@ a {
   color: var(--main-color);
   text-decoration: none;
 }
+button {
+  cursor: pointer;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  background-color: inherit;
+  font-size: inherit;
+  border-radius: 10px;
+}
 
 
 @media (hover: hover) {

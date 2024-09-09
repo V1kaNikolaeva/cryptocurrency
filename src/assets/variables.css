@@ -5,6 +5,9 @@
     --border: rgb(255, 255, 255);
     --toggle: rgb(232, 177, 67);
     --toggle-circle-hover: rgb(211, 127, 0);
+
+    --hover: rgb(172, 56, 56);
+    --hover-update: rgb(46, 134, 123);
 }
 
 [data-theme="dark"] {
@@ -14,4 +17,7 @@
     --border: rgb(39, 39, 39);
     --toggle: rgb(25, 47, 66);
     --toggle-circle-hover: rgb(165, 165, 165);
-  }
+    
+    --hover: rgb(114, 179, 114);
+    --hover-update: rgb(46, 134, 123);
+}

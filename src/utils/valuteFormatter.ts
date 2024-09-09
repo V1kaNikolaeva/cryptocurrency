@@ -1,13 +1,8 @@
-const ru = new Intl.NumberFormat('ru-RU', {
-    currency: 'RUB',
-    maximumFractionDigits: 2,
-    minimumFractionDigits: 2,
-});
-const usd = new Intl.NumberFormat('ru-RU', {
-    currency: 'USD',
-    maximumFractionDigits: 2,
-    minimumFractionDigits: 2,
-});
-export function ruFormat(value: string) {
-    return ru.format(Number(value))
+export function format(format: string, value: string, currency: string) {
+    const fotmatType = new Intl.NumberFormat(format, {
+        currency: currency,
+        maximumFractionDigits: 2,
+        minimumFractionDigits: 2,
+    });
+    return fotmatType.format(Number(value))
 }

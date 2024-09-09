@@ -13,3 +13,9 @@ export interface ValueItemRecord {
 export interface ValuteItem {
     data: ValueItemRecord
 }
+
+//Состояние
+export interface Currency {
+    currencies: ValueItemRecord,
+    date: string,
+}
